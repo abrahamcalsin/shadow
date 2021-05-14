@@ -1,0 +1,62 @@
+/* --- SHADES --- */
+.one{box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
+/*----*/
+.two{box-shadow:
+/*----*/ rgba(27, 31, 35, 0.15) 0px 0px 0px 3px;}
+.three{box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
+/*....*/
+.four{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+/*----*/
+.five{box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;}
+/*----*/
+.six{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+/*----*/
+.seven{box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+/*----*/
+.eight{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+/*----*/
+.nine{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+/*----*/
+.ten{box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 2px;}
+/*----*/
+.eleven{box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;}
+/*----*/
+.twelve{box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;}
+/*----*/
+.thirteen{box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+/*----*/
+.fourteen{box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;}
+/*----*/
+.fiftenn{box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+/*----*/
+.sixteen{position: relative;}
+.sixteen:before,
+.sixteen:after {
+	  z-index: -1;
+	  position: absolute;
+	  content: "";
+	  bottom: 15px;
+	  left: 10px;
+	  width: 50%;
+	  top: 80%;
+	  max-width:300px;
+	  background: #777;
+	  box-shadow: 0 15px 10px #777;
+	  transform: rotate(-6deg);
+}
+.sixteen:after
+{
+	  transform: rotate(6deg);
+	  right: 10px;
+	  left: auto;
+}
+/*----*/
+.seventeen{box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.0) -3px -3px 6px 1px inset;}
+/*----*/
+.eighteen{box-shadow: rgba(0, 0, 0, 0.24) -3px -3px 6px 0px inset, rgba(0, 0, 0, 0.0) -3px -3px 6px 1px inset;}
+/*----*/
+.nineteen{box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
+/*----*/
+.twenty{box-shadow: rgba(0, 0, 0, 0.24) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;}
+/*----*/
+.twentyone{box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}

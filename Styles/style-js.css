@@ -1,0 +1,57 @@
+.bgCopyId{
+	animation: colrMod 10s linear;
+	color: #3b3d44;
+}
+.btn-style{
+	color: #737373;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+}
+.btn-style:hover{
+	color: #4498fffb;
+}
+@keyframes colrMod {
+    0%, 100%{
+    	color: #4498fffb;
+    }
+    50%{
+    	color: #4d4d4dff;
+    }
+}
+.successCopy{
+	position: fixed;
+	width: 7rem;
+	top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: #4498fffb;
+	border-radius: 3px;
+	font-family: "Lucida Console", Courier, monospace;
+	padding: 6px 10px;
+	color: white;
+	font-size: 1rem;
+	animation-name: succCop;
+	animation-duration: 1s, 5s, 1ms;
+	z-index: 6;
+}
+@keyframes succCop{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+		top: 19px;
+	}
+	100%{
+		top: 0;
+		opacity: 0;
+	}
+}

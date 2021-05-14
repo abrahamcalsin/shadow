@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20"
+   height="20"
+   viewBox="0 0 5.2916665 5.2916668"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="fa-instagram.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="15.533788"
+     inkscape:cy="3.380624"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="5.2600631,0.039970401"
+       orientation="0,1"
+       id="guide2521"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0.031603406,5.2517263"
+       orientation="0,1"
+       id="guide2523"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0.031603405,5.2517264"
+       orientation="1,0"
+       id="guide2525"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="5.2600631,0.039970401"
+       orientation="1,0"
+       id="guide2527"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-291.70832)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path6648"
+       style="fill:#3b3d44;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0249485"
+       d="m 4.0254146,292.67959 c -0.1688924,0 -0.3053691,0.13693 -0.3053691,0.30563 0,0.1687 0.1364767,0.30537 0.3053691,0.30537 0.1686595,0 0.3053844,-0.13675 0.3053844,-0.30537 0,-0.1687 -0.1367237,-0.30563 -0.3053844,-0.30563" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6650"
+       style="fill:#3b3d44;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0249485"
+       d="m 2.6672299,295.17668 c -0.4533246,0 -0.8220569,-0.36872 -0.8220569,-0.82204 0,-0.4533 0.3687323,-0.82181 0.8220569,-0.82181 0.4532939,0 0.8220416,0.36851 0.8220416,0.82181 0,0.45332 -0.3687477,0.82204 -0.8220416,0.82204 z m 0,-2.1054 c -0.7075492,0 -1.2833577,0.57581 -1.2833577,1.28336 0,0.70753 0.5758085,1.28335 1.2833577,1.28335 0.7075343,0 1.2830959,-0.57582 1.2830959,-1.28335 0,-0.70755 -0.5755616,-1.28336 -1.2830959,-1.28336" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6652"
+       style="fill:#3b3d44;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0249485"
+       d="m 1.6056669,292.2395 c -0.5927795,0 -1.07503211,0.48227 -1.07503211,1.07505 v 2.08019 c 0,0.59278 0.48225261,1.07503 1.07503211,1.07503 H 3.686119 c 0.5927795,0 1.0747852,-0.48225 1.0747852,-1.07503 v -2.08019 c 0,-0.59278 -0.4820057,-1.07505 -1.0747852,-1.07505 z m 2.0804521,4.72052 H 1.6056669 c -0.86297238,0 -1.56527621,-0.70205 -1.56527621,-1.56528 v -2.08019 c 0,-0.863 0.70230383,-1.56528 1.56527621,-1.56528 H 3.686119 c 0.8629724,0 1.565014,0.70228 1.565014,1.56528 v 2.08019 c 0,0.86323 -0.7020416,1.56528 -1.565014,1.56528" />
+  </g>
+</svg>

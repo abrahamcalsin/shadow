@@ -1,0 +1,142 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	position: relative;
+}
+.head-shadows{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 17px;
+	z-index: 5;
+}
+.nav-shadows{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-shadows aside:first-child{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-shadows aside:last-child{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-fa{
+	margin-left: 13px;
+	transition: .3s all;
+}
+.social-fa:first-child{
+	margin-left: 0;
+}
+.social-fa:hover{
+	transform: translateY(-1px);
+}
+.social-fa img{
+	width: 16px;
+	max-width: 16px;
+	min-height: 16px;
+	display: block;
+}
+.nav-shadows aside img{
+	width: 33px;
+}
+.nav-shadows h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+	color: #3b3d44;
+	font-size: 1.8em;
+	padding-left: 1.4px;
+	margin: 12px auto;
+}
+/* ------- */
+.shadeGrid{
+	display: grid;
+	grid-template-columns: repeat(3, 11.3rem);
+	grid-template-rows: repeat(auto, 11.3rem);
+	grid-gap: 125px 125px;
+	justify-content: center;
+	align-items: center;
+}
+.shade-cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	border-radius: 5px;
+	height: 11.3rem;
+	transition: .3s all;
+}
+.shade-cont p{
+	color: #3b3d44;
+	font-size: .7em;
+	text-align: center;
+	display: none;
+}
+/*----*/
+@media (max-width: 992px){
+	.shadeGrid{
+		grid-template-columns: repeat(3, 9rem);
+		grid-template-rows: repeat(auto, 9rem);
+		grid-gap: 50px 50px;
+	}
+	.shade-cont{
+		height: 9rem;
+	}
+}
+@media (max-width: 768px){
+	.shadeGrid{
+		grid-template-columns: repeat(2, 10rem);
+		grid-template-rows: repeat(auto, 10rem);
+		grid-gap: 120px 120px;
+	}
+	.shade-cont{
+		height: 10rem;
+	}
+}
+@media (max-width: 516px){
+	.shadeGrid{
+		grid-template-columns: repeat(2, 7rem);
+		grid-template-rows: repeat(auto, 7rem);
+		grid-gap: 73px 73px;
+	}
+	.shade-cont{
+		height: 7rem;
+	}
+	.btn-style{
+		font-size: .7em;
+	}
+}
+@media (max-width: 356px){
+	.shadeGrid{
+		grid-template-columns: repeat(1, 10rem);
+		grid-template-rows: repeat(auto, 10rem);
+		grid-gap: 70px 70px;
+	}
+	.shade-cont{
+		height: 10rem;
+	}
+}
+/*-----*/
+@media (min-width: 1200px) {
+  .shadeGrid{
+		grid-template-columns: repeat(3, 14rem);
+		grid-template-rows: repeat(auto, 14rem);
+		grid-gap: 185px 185px;
+	}
+	.shade-cont{
+		height: 14rem;
+	}
+}
