@@ -6,6 +6,7 @@ body{
 	padding: 0;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	background: transparent;
 	position: relative;
 }
 .head-shadows{
@@ -139,4 +140,19 @@ body{
 	.shade-cont{
 		height: 14rem;
 	}
+}
+/*-------*/
+.descript-end-shadow{
+	margin-top: 150px;
+	background: #fafafa;
+	border: 1px solid rgba(27, 31, 35, 0.10); 
+	padding: 15px 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+.descript{
+	color: #4d4d4dff;
+	margin: 15px 0;
+	margin-top: 0;
 }
