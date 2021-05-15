@@ -26,11 +26,11 @@
 	<!--SCRIPT -->
 	<script type="text/javascript" src="script/app.js"></script>
 </head>
-<body onload="init()">
+<body>
 		<header class="head-shadows">
 			<nav class="container-rsp nav-shadows">
-				<aside>
-					<img src="resources/fav-logo/logo-shadow.svg" alt=""><h2>hadow</h2>
+				<aside class="logo-shadow">
+					<a href="https://shadow.vercel.app"><img src="resources/fav-logo/logo-shadow.svg" alt="Shadow"></a>
 				</aside>
 				<aside>
 					<a href="https://www.twitter.com/abraham_calsin" class="social-fa" rel="noreferrer" target="_blank" id="linkDisabled">
@@ -48,98 +48,113 @@
 				</aside>
 		</nav>
 	</header>
+	<h3 class="examples-shadows">Examples of modern <br>box-shadow;</h3>
 	<div class="container-rsp">
-		<div class="shadeGrid">
-		    <div class="shade-cont one" >
-			    <p id="copy-shade0">box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;</p>
+		<aside class="social-media-resp">
+			<a href="https://www.twitter.com/abraham_calsin" class="social-fa" rel="noreferrer" target="_blank">
+				<img src="resources/social-media/fa-twitter.svg" alt="Twitter">
+			</a>
+			<a href="https://www.github.com/abrahamcalsin" class="social-fa" rel="noreferrer" target="_blank">
+				<img src="resources/social-media/fa-github.svg" alt="Github">
+			</a>
+			<a href="https://www.linkedin.com/in/abrahamcalsin/" class="social-fa" alt="LinkedIn" rel="noreferrer" target="_blank">
+				<img src="resources/social-media/fa-linkedin.svg">
+			</a>
+			<a href="https://www.instagram.com/abrahamcalsin" class="social-fa">
+				<img src="resources/social-media/fa-instagram.svg" alt="Instagram" rel="noreferrer" target="_blank">
+			</a>
+		</aside>
+		<div class="shadowGrid">
+		    <div class="shadow-cont one" >
+			    <p id="copy-shadow0">box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont two">
-			    <p id="copy-shade1">box-shadow: rgba(27, 31, 35, 0.15) 0px 0px 0px 3px;</p>
+		    <div class="shadow-cont two">
+			    <p id="copy-shadow1">box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont three">
-			    <p id="copy-shade2">box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;</p>
+		    <div class="shadow-cont three">
+			    <p id="copy-shadow2">box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont four">
-			    <p id="copy-shade3">box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;</p>
+		    <div class="shadow-cont four">
+			    <p id="copy-shadow3">background: linear-gradient(145deg, #e6e6e6, #ffffff); box-shadow:  10px 10px 46px #ededed, -10px -10px 46px #ffffff;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont five">
-			    <p id="copy-shade4">box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;</p>
+		    <div class="shadow-cont five">
+			    <p id="copy-shadow4">box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont six">
-			    <p id="copy-shade5">box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;</p>
+		    <div class="shadow-cont six">
+			    <p id="copy-shadow5">box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont seven">
-			    <p id="copy-shade6">box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;</p>
+		    <div class="shadow-cont seven">
+			    <p id="copy-shadow6">box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont eight">
-			    <p id="copy-shade7">box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;</p>
+		    <div class="shadow-cont eight">
+			    <p id="copy-shadow7">box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont nine">
-			    <p id="copy-shade8">box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;</p>
+		    <div class="shadow-cont nine">
+			    <p id="copy-shadow8">box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont ten">
-			    <p id="copy-shade9">box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 2px;</p>
+		    <div class="shadow-cont ten">
+			    <p id="copy-shadow9">box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 2px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont eleven">
-			    <p id="copy-shade10">box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;</p>
+		    <div class="shadow-cont eleven">
+			    <p id="copy-shadow10">box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont twelve">
-			    <p id="copy-shade11">box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;</p>
+		    <div class="shadow-cont twelve">
+			    <p id="copy-shadow11">box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont thirteen">
-			    <p id="copy-shade12">box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;</p>
+		    <div class="shadow-cont thirteen">
+			    <p id="copy-shadow12">box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont fourteen">
-			    <p id="copy-shade13">box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;</p>
+		    <div class="shadow-cont fourteen">
+			    <p id="copy-shadow13">box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont fiftenn">
-			    <p id="copy-shade14">box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;</p>
+		    <div class="shadow-cont fiftenn">
+			    <p id="copy-shadow14">box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont sixteen">
-			    <p id="copy-shade15">background: linear-gradient(145deg, #e6e6e6, #ffffff); box-shadow:  22px 22px 44px #d9d9d9, -22px -22px 44px #ffffff;</p>
+		    <div class="shadow-cont sixteen">
+			    <p id="copy-shadow15">10px 12px 35px -4px rgba(0,0,0,0.07)</p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont seventeen">
-			    <p id="copy-shade16">box-shadow: 20px 0px 5px blue; </p>
+		    <div class="shadow-cont seventeen">
+			    <p id="copy-shadow16">box-shadow: 20px 0px 5px blue; </p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont eighteen">
-			    <p id="copy-shade17">box-shadow: 20px 0px 5px blue; </p>
+		    <div class="shadow-cont eighteen">
+			    <p id="copy-shadow7">box-shadow: 20px 0px 5px blue; </p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont nineteen">
-			    <p id="copy-shade18">box-shadow: 20px 0px 5px blue; </p>
+		    <div class="shadow-cont nineteen">
+			    <p id="copy-shadow18">box-shadow: 20px 0px 5px blue; </p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont twenty">
-			    <p id="copy-shade19">box-shadow: 20px 0px 5px blue; </p>
+		    <div class="shadow-cont twenty">
+			    <p id="copy-shadow19">box-shadow: 20px 0px 5px blue; </p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
-		    <div class="shade-cont twentyone">
-			    <p id="copy-shade20">box-shadow: 20px 0px 5px blue; </p>
+		    <div class="shadow-cont twentyone">
+			    <p id="copy-shadow20">box-shadow: 20px 0px 5px blue; </p>
 			    <button onclick="CopyFunction(this)" class="btn-style">Copy Shadow</button>
 		    </div>
 		</div>
 		<div class="descript-end-shadow">
-			<p class="descript">Obtain your own shadows, taking into account the following properties:</p>
+			<p class="descript">Obtain your own shadows, taking into account the following property, which is vital to create a spectacular shadow:</p>
 			<pre>
 				<code class="language-css">
-					box-shadow: rgba(0.2, 1.2, 5.0) 5px 3px 2px;
+					box-shadow: //values //color - hex(#) - rgba() - rgb() - hsl();
 				</code>
 			</pre>
 		</div>

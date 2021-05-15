@@ -1,11 +1,11 @@
 /* --- SHADES --- */
 .one{box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
 /*----*/
-.two{box-shadow: rgba(27, 31, 35, 0.15) 0px 0px 0px 3px;}
+.two{box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
 /*----*/ 
-.three{box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
+.three{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
 /*....*/
-.four{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+.four{background: linear-gradient(145deg, #e6e6e6, #ffffff); box-shadow:  10px 10px 46px #ededed, -10px -10px 46px #ffffff;}
 /*----*/
 .five{box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;}
 /*----*/
@@ -29,9 +29,7 @@
 /*----*/
 .fiftenn{box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
 /*----*/
-.sixteen{background: linear-gradient(145deg, #e6e6e6, #ffffff);
-box-shadow:  10px 10px 46px #ededed,
-             -10px -10px 46px #ffffff;}
+.sixteen{box-shadow: 10px 12px 35px -4px rgba(0,0,0,0.07);}
 /*----*/
 .seventeen{box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.0) -3px -3px 6px 1px inset;}
 /*----*/

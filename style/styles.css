@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	padding-top: 150px;
+	padding-top: 70px;
 	padding-bottom: 150px;
 	background: transparent;
 	position: relative;
@@ -34,6 +34,11 @@ body{
 	align-items: center;
 	justify-content: center;
 }
+@media (max-width: 576px){
+	.nav-shadows aside:last-child{
+		display: none;
+	}
+}
 .social-fa{
 	margin-left: 13px;
 	transition: .3s all;
@@ -50,19 +55,61 @@ body{
 	min-height: 16px;
 	display: block;
 }
-.nav-shadows aside img{
-	width: 33px;
+.logo-shadow{
+	margin: 18px 0;
+	padding: 0;
 }
-.nav-shadows h2{
+.logo-shadow img{
+	width: 8.5rem;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+/*---- START - EXAMPLES OF BOX SHADOWS ---*/
+.examples-shadows{
 	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
 	color: #3b3d44;
-	font-size: 1.8em;
-	padding-left: 1.4px;
-	margin: 12px auto;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	transition: .3s all;
 }
-/* ------- */
-.shadeGrid{
+.examples-shadows br{
+	display: none;
+}
+/*--------*/
+.social-media-resp{
+	display: none;
+}
+@media (max-width: 576px){
+	.examples-shadows{
+		font-size: 1.2rem;
+		margin-bottom: 15px;
+	}
+	.examples-shadows br{
+		display: block;
+	}
+	.social-media-resp{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	.social-media-resp:before{
+		content: '';
+		width: 28%;
+		max-width: 7rem;
+		min-width: 5rem;
+		height: 1.2px;
+		position: absolute;
+		background: #3b3d44;
+		top: -10px;
+	}
+}
+/*---- START - SHADOW GRID ---*/
+.shadowGrid{
 	display: grid;
 	grid-template-columns: repeat(3, 11.3rem);
 	grid-template-rows: repeat(auto, 11.3rem);
@@ -70,7 +117,7 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.shade-cont{
+.shadow-cont{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -80,7 +127,7 @@ body{
 	height: 11.3rem;
 	transition: .3s all;
 }
-.shade-cont p{
+.shadow-cont p{
 	color: #3b3d44;
 	font-size: .7em;
 	text-align: center;
@@ -88,60 +135,61 @@ body{
 }
 /*----*/
 @media (max-width: 992px){
-	.shadeGrid{
+	.shadowGrid{
 		grid-template-columns: repeat(3, 9rem);
 		grid-template-rows: repeat(auto, 9rem);
 		grid-gap: 50px 50px;
 	}
-	.shade-cont{
+	.shadow-cont{
 		height: 9rem;
 	}
 }
 @media (max-width: 768px){
-	.shadeGrid{
+	.shadowGrid{
 		grid-template-columns: repeat(2, 10rem);
 		grid-template-rows: repeat(auto, 10rem);
 		grid-gap: 120px 120px;
 	}
-	.shade-cont{
+	.shadow-cont{
 		height: 10rem;
 	}
 }
 @media (max-width: 516px){
-	.shadeGrid{
-		grid-template-columns: repeat(2, 7rem);
-		grid-template-rows: repeat(auto, 7rem);
-		grid-gap: 73px 73px;
+	.shadowGrid{
+		grid-template-columns: repeat(2, 8rem);
+		grid-template-rows: repeat(auto, 8rem);
+		grid-gap: 60px 60px;
 	}
-	.shade-cont{
-		height: 7rem;
+	.shadow-cont{
+		height: 8rem;
 	}
 	.btn-style{
 		font-size: .7em;
 	}
 }
 @media (max-width: 356px){
-	.shadeGrid{
+	.shadowGrid{
 		grid-template-columns: repeat(1, 10rem);
 		grid-template-rows: repeat(auto, 10rem);
 		grid-gap: 70px 70px;
 	}
-	.shade-cont{
+	.shadow-cont{
 		height: 10rem;
 	}
 }
 /*-----*/
 @media (min-width: 1200px) {
-  .shadeGrid{
+  .shadowGrid{
 		grid-template-columns: repeat(3, 14rem);
 		grid-template-rows: repeat(auto, 14rem);
 		grid-gap: 185px 185px;
 	}
-	.shade-cont{
+	.shadow-cont{
 		height: 14rem;
 	}
 }
 /*-------*/
+/*-- END - SHADOW GRID --*/
 .descript-end-shadow{
 	margin-top: 150px;
 	background: #fafafa;
