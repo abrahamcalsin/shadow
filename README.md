@@ -9,7 +9,7 @@
 <!-- DESCRIPTION -->
 <h3>— Description:</h3>
 <p>
-  Using Shadow is very efficient and/or enjoyable for a Web Designer, that's why I set out to develop this tool; give a more original and modern touch of shadow to your designs with Shadow; I leave it up to you!a
+  Using Shadow is very efficient and/or enjoyable for a Web Designer, that's why I set out to develop this tool; give a more original and modern touch of shadow to your designs with Shadow; I leave it to your liking!
 </p>
 <!-- MORE DETAILS -->
 <p>
