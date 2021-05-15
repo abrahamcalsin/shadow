@@ -18,5 +18,5 @@
 <!-- LICENSE -->
 <h3>— License:</h3>
 <p>
-	<code>Shadow</code>, under <a href="https://github.com/abrahamcalsin/shadow/blob/master/LICENSE">MIT</a> license.
+	<code>Shadow</code>, under <a href="https://github.com/abrahamcalsin/shadow/blob/master/LICENSE">License MIT</a>
 </p>
