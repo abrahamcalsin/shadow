@@ -13,7 +13,7 @@
 </p>
 <!-- MORE DETAILS -->
 <p>
-  To develop the web, use the following web development languages, JavaScript / HTML / CSS and a library that reflects the syntax of code, lightweight and extensible.
+  To develop the web, use the following web development languages, JavaScript / HTML / CSS and a library that reflects the syntax of code, lightweight and extensible, Prismjs.
 </p>
 <!-- LICENSE -->
 <h3>— License:</h3>
