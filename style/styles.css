@@ -30,33 +30,6 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.nav-shadows aside:last-child{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-@media (max-width: 576px){
-	.nav-shadows aside:last-child{
-		display: none;
-	}
-}
-/*--- START SOCIAL MEDIA --*/
-.social-fa{
-	margin-left: 13px;
-	transition: .3s all;
-}
-.social-fa:first-child{
-	margin-left: 0;
-}
-.social-fa:hover{
-	transform: translateY(-1px);
-}
-.social-fa img{
-	width: 16px;
-	max-width: 16px;
-	min-height: 16px;
-	display: block;
-}
 .logo-shadow{
 	margin: 18px 0;
 	padding: 0;
@@ -67,8 +40,36 @@ body{
 	margin: 0;
 	padding: 0;
 }
+/*-----*/
+.social-media-desk{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media (max-width: 576px){
+	.social-media-desk{
+		display: none;
+	}
+}
+/*--- START SOCIAL MEDIA - DESK --*/
+.social-fa-desk{
+	margin-left: 13px;
+	transition: .3s all;
+}
+.social-fa-desk:first-child{
+	margin-left: 0;
+}
+.social-fa-desk:hover{
+	transform: translateY(-1px);
+}
+.social-fa-desk img{
+	width: 16px;
+	max-width: 16px;
+	min-height: 16px;
+	display: block;
+}
 /*---- START - EXAMPLES OF BOX SHADOWS ---*/
-.examples-shadows{
+.examples-shadows-descript{
 	color: #3b3d44;
 	font-size: 1.5rem;
 	text-align: center;
@@ -76,19 +77,35 @@ body{
 	margin-bottom: 100px;
 	transition: .3s all;
 }
-.examples-shadows br{
+.examples-shadows-descript br{
 	display: none;
 }
-/*--------*/
+/*--- START SOCIAL MEDIA - RESP --*/
 .social-media-resp{
 	display: none;
 }
+.social-fa-resp{
+	margin-left: 13px;
+	transition: .3s all;
+}
+.social-fa-resp:first-child{
+	margin-left: 0;
+}
+.social-fa-resp:hover{
+	transform: translateY(-1px);
+}
+.social-fa-resp img{
+	width: 16px;
+	max-width: 16px;
+	min-height: 16px;
+	display: block;
+}
 @media (max-width: 576px){
-	.examples-shadows{
+	.examples-shadows-descript{
 		font-size: 1.2rem;
 		margin-bottom: 15px;
 	}
-	.examples-shadows br{
+	.examples-shadows-descript br{
 		display: block;
 	}
 	.social-media-resp{
@@ -189,8 +206,8 @@ body{
 		height: 14rem;
 	}
 }
-/*-------*/
 /*-- END - SHADOW GRID --*/
+/*-------*/
 .descript-end-shadow{
 	background: #fafafa;
 	border: 1px solid rgba(27, 31, 35, 0.10); 
