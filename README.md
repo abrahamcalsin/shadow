@@ -18,5 +18,5 @@
 <!-- LICENSE -->
 <h3>— License:</h3>
 <p>
-<code>Shadow</code>, is under MIT license.
+<code>Shadow</code>, under MIT license.
 </p>
