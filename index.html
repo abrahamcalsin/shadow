@@ -12,6 +12,7 @@
 	<!-- STYLES -->
 	<link rel="stylesheet" href="style/style-responsive.css">
 	<link rel="stylesheet" href="style/styles.css">
+	<link rel="stylesheet" href="style/style-global.css">
 	<link rel="stylesheet" href="style/style-js.css">
 	<link rel="stylesheet" href="style/style-shadows.css">
 
@@ -19,8 +20,6 @@
 	<link href="style/prism.css" rel="stylesheet" />
 
 	<!-- FONTS -->
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 	
 	<!--SCRIPT -->
@@ -28,12 +27,12 @@
 </head>
 <body>
 		<header class="head-shadows">
-			<nav class="container-rsp nav-shadows">
+			<nav class="container-resp nav-shadows">
 				<aside class="logo-shadow">
 					<a href="https://shadow.vercel.app"><img src="resources/fav-logo/logo-shadow.svg" alt="Shadow"></a>
 				</aside>
 				<aside>
-					<a href="https://www.twitter.com/abraham_calsin" class="social-fa" rel="noreferrer" target="_blank" id="linkDisabled">
+					<a href="https://www.twitter.com/abraham_calsin" class="social-fa" rel="noreferrer" target="_blank">
 						<img src="resources/social-media/fa-twitter.svg" alt="Twitter">
 					</a>
 					<a href="https://www.github.com/abrahamcalsin" class="social-fa" rel="noreferrer" target="_blank">
@@ -49,7 +48,7 @@
 		</nav>
 	</header>
 	<h3 class="examples-shadows">Examples of modern <br>box-shadow;</h3>
-	<div class="container-rsp">
+	<div class="container-resp">
 		<aside class="social-media-resp">
 			<a href="https://www.twitter.com/abraham_calsin" class="social-fa" rel="noreferrer" target="_blank">
 				<img src="resources/social-media/fa-twitter.svg" alt="Twitter">
@@ -151,12 +150,30 @@
 		    </div>
 		</div>
 		<div class="descript-end-shadow">
-			<p class="descript">Obtain your own shadows, taking into account the following property, which is vital to create a spectacular shadow:</p>
+			<p class="descript"><code class="code-style">box-shadow:</code></p>
 			<pre>
 				<code class="language-css">
-					box-shadow: //values //color - hex(#) - rgba() - rgb() - hsl();
+					box-shadow: //values //color //(optional - inset);
 				</code>
 			</pre>
+			<p class="descript">The <code class="code-style">box-shadow:</code> property is used to generate and/or cast shadows at the block level; below I will give you a brief explanation of the missing complements to generate a spectacular shadow.</p>
+			<ol class="listStyle">
+				<li class="descript">
+					<b> Horizontal "&#8594;<sup>&#8592;</sup>" displacement of the shadow, <code class="code-style">offset-x:</code></b> Specifies the horizontal distance; positive(+) and negative(-) values are also used; if a "+" value is specified, the shadow will be seen on the right side of the box/content, and if a "-" value is specified, the shadow will be seen on the left side of the box/content.
+				</li>
+				<li class="descript">
+					<b> Vertical "&#8593;&#8595;" displacement of the shadow, <code class="code-style">offset-y:</code></b> Specifies the vertical distance; negative(-) and positive(+) values are also used; if a "-" value is specified, the shadow will be seen above the box/content, and if a "+" value is specified, the shadow will be seen below the box/content.
+				</li>
+				<li class="descript">
+					<b> Blur radius, <code class="code-style">blur-radius:</code></b> Using this value is optional. If we specify a value greater than 0, the blurrier it will be, making the shadow softer. And if we don't specify a value, it will be 0 by default and consequently the shadow will appear sharper, without any blurring.
+				</li>
+				<li class="descript">
+					<b> Propagation radius, <code class="code-style">spread-radius:</code></b> Using this value is optional. You can also use positive (+) and negative (-) values here; if you specify a positive value "+", the shadow of the box will expand and increase in size; if you specify a negative value "-", the shadow will shrink and decrease in size. The default value is 0, so it will have no effect, and the shadow will have the same size as the element.
+				</li>
+				<li class="descript">
+					<b> Color:</b> And finally, don't forget the color, since the appreciation of the shadow will depend on it; you can use colors such as Hexadecimal, Rgba, Rgb, Hsl. Choose to use the color in the way that seems most efficient to you, I leave it to your taste. 
+				</li>
+			</ol>
 		</div>
 	</div>
 	<!---->

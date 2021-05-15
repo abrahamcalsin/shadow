@@ -1,4 +1,4 @@
-.container-rsp {
+.container-resp {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -7,25 +7,25 @@
 }
 
 @media (min-width: 576px) {
-  .container-rsp {
+  .container-resp {
     max-width: 520px;
   }
 }
 
 @media (min-width: 768px) {
-  .container-rsp {
+  .container-resp {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container-rsp {
+  .container-resp {
     max-width: 830px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container-rsp {
+  .container-resp {
     max-width: 1350px;
   }
 }
@@ -43,14 +43,14 @@
 }
 
 @media (min-width: 576px) {
-  .container-rsp,
+  .container-resp,
   .container-sm {
     max-width: 520px;
   }
 }
 
 @media (min-width: 768px) {
-  .container-rsp,
+  .container-resp,
   .container-sm,
   .container-md {
     max-width: 720px;
@@ -58,7 +58,7 @@
 }
 
 @media (min-width: 992px) {
-  .container-rsp,
+  .container-resp,
   .container-sm,
   .container-md,
   .container-lg {
@@ -67,7 +67,7 @@
 }
 
 @media (min-width: 1200px) {
-  .container-rsp,
+  .container-resp,
   .container-sm,
   .container-md,
   .container-lg,
