@@ -6,7 +6,6 @@ body{
 	margin: 0;
 	padding: 0;
 	padding-top: 70px;
-	padding-bottom: 150px;
 	background: transparent;
 	position: relative;
 }
@@ -218,7 +217,8 @@ body{
 	font-size: 1rem;
 }
 .descript{
-	color: #3b3d44;
+	/*color: #3b3d44;*/
+	color: rgba(59, 61, 68, 0.88);
 	margin: 15px 0;
 	margin-top: 0;
 }
@@ -228,7 +228,7 @@ body{
 }
 .listStyle li::marker{
 	font-weight: bolder;
-	color: #3b3d44;
+	color: rgba(59, 61, 68, 0.88);
 }
 .code-style {
 	background: #e4e4e4;
@@ -239,5 +239,64 @@ body{
 @media (max-width: 576px){
 	.descript-end-shadow{
 		font-size: .8rem;
+	}
+}
+/*--- INFOR - DEVELOPED BY ABRAHAM CALSIN ---*/
+.infor-developed-abrahamcalsin{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.infor-developed-abrahamcalsin p, a{
+	text-decoration: none;
+	font-size: .8rem;
+	color: rgba(59, 61, 68, 0.69);
+}
+.infor-developed-abrahamcalsin p a{
+	font-weight: 600;
+}
+@media (min-width: 576px){
+	.infor-developed-abrahamcalsin p, a{
+		font-size: .8rem;
+	}
+}
+@media (min-width: 768px){
+	.infor-developed-abrahamcalsin{
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+}
+/* STYLES - BTN IR ARRIBA */
+#scroll-up {
+   position: fixed;
+   top: 14px;
+   right: 19px;
+   width: 45px;
+   height: 45px;
+   border-radius: 5px 5px 5px 5px;
+}
+#scroll-up img {
+   position: absolute;
+   display: block;
+   left: 13px;
+   top: 15px;
+  width: 20px;
+  animation: arrowupAnimation 1s infinite;
+}
+@keyframes arrowupAnimation {
+	0%{
+		top: 15px;
+	}
+	50%{
+		top: 18px;
+	}
+	100%{
+		top: 15px;
+	}
+}
+/*--------*/
+@media (min-width: 576px){
+	#scroll-up{
+		display: none !important;
 	}
 }

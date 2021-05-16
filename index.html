@@ -24,6 +24,24 @@
 	
 	<!--SCRIPT -->
 	<script type="text/javascript" src="script/app.js"></script>
+
+	<!-- BTN IR ARIIBA -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 0) {
+            $('#scroll-up').fadeIn()
+          } else {
+            $('#scroll-up').fadeOut()
+          }
+        })
+        $('#scroll-up').click(function () {
+          $('html, body').animate({ scrollTop: 0 }, 600)
+          return false
+        })
+      })
+    </script>
 </head>
 <body>
 		<!----->
@@ -49,6 +67,10 @@
 					</a>
 				</aside>
 		</nav>
+		<!-- BTN IR ARRIBA -->
+        <a href="javascript:void(0);" id="scroll-up" style="display: none"
+          ><img src="resources/icons/fa-arrow-up-icon.svg" alt=""
+        /></a>
 	</header>
 	<!---->
 	<h3 class="examples-shadows-descript">Examples of modern <br>box-shadow;</h3>
@@ -181,6 +203,7 @@
 				</li>
 			</ol>
 		</div>
+		<div class="infor-developed-abrahamcalsin"><p>{Developed by <a href="https://abrahamcalsin.com" target="_blank">Abraham Calsin</a>}</p></div>
 	</div>
 	<!---->
 	<script src="script/prism.js" type="text/javascript"></script>

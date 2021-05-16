@@ -58,7 +58,8 @@
 /*------*/
 @media (max-width: 576px){
 	.successCopy{
-		right: 25px;
+		width: 6rem;
+		right: 80px;
 		margin-right: 0;
 	}
 }
