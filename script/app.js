@@ -29,9 +29,4 @@ function CopyFunction(item) {
         document.body.removeChild(document.body.lastChild); 
 
     }, 1000);
-    
-
-    //alert(`Copia Exitosa: ${copyText}`);
-    
-    //console.log(item.previousElementSibling.id);
 }
